@@ -86,8 +86,8 @@
   /*CSS Styling for About Section*/
   .about{
     width: 100%;
-    padding: 20px 0px;
-    background-color: #191919;
+    padding: 100px 0px;
+    background-color: #062F4F;
   }
   
   .about img{
@@ -110,15 +110,17 @@
   
   .about-text h2{
     color: white;
-    font-size: 25px;
+    font-size: 75px;
+    text-transform: capitalize;
     margin-bottom: 20px;
   }
   
   .about-text p{
-    color: #5596e6;
+    color: lightblue;
     letter-spacing: 1px;
     line-height: 28px;
-    font-size: 15px;
+    font-size: 18px;
+    margin-bottom: 45px;
   }
 
   /*CSS Styling for Project Section*/
