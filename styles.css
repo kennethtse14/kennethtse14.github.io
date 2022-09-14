@@ -15,32 +15,42 @@
 .hero{
     height: 100vh;
     width: 100%;
-    /*background-image to be added later on to replace black background*/
-    background-color: black;
+    /*background-image to be added later on to replace blue background*/
+    background-color: #0375b4;
     background-size: cover;
     background-position: center;
-  }
-
-  .name-logo{
-    color: #5596e6;
   }
 
   nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 17.5px;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+
+  span{
+    color: #5596e6;
   }
   
   nav > ul > li{
+    list-style-type: none;
     display: inline-block;
-    padding: 10px 7.5px;
+    padding: 10px 25px;
   }
   
   nav > ul > li > a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    text-transform: capitalize;
   }
   
   nav > ul > li > a:hover{
@@ -57,23 +67,20 @@
 
   h1{
     color: white;
-    margin: 20px 0 2px;
+    margin: 20px 0 20px;
     font-size: 75px;
   }
   
   h3{
-    color: white; /*change color later*/
+    color: white;
     font-size: 25px;
+    margin-bottom: 50px;
   }
   
   h4{
-    color: white; /*change color later*/
-    letter-spacing: 2px;
-    font-size: 20px;
-  }
-
-  span{
-    color: #5596e6;
+    color: lightblue; 
+    letter-spacing: 25px;
+    font-size: 50px;
   }
 
   /*CSS Styling for About Section*/
