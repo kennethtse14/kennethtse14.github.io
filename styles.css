@@ -15,8 +15,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    /*background-image to be added later on to replace blue background*/
-    background-color: #0375b4;
+    background-image: url(img/toronto-background.jpg);
     background-size: cover;
     background-position: center;
   }
